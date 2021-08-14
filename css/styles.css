@@ -6,6 +6,20 @@
 	color: #7B3F00 !important;
 }
 
+.nav-item .fa-facebook-f {
+	color: #4267B2 !important;
+}
+
+.nav-item .fa-instagram {
+	background: -webkit-linear-gradient(#F77737, #F07438, #451D5C) ;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.nav-item .fa-twitter {
+	color: #1DA1F2 !important;
+}
+
 .active {
 	color: #FD788B !important;
 }
@@ -49,8 +63,17 @@
 	background: #FEB4BF;
 }
 
+#best-seller h1 {
+	color: #7B3F00;
+}
+
+#best-seller p {
+	line-height: 30px;
+	color: black; 
+}
+
 .best-selling-1, .best-selling-2, .best-selling-3 {
-	width: 25%;
+	width: 30%;
 	height: 350px;
 	border: 1px solid #7B3F00;
 	background: #7B3F00;
@@ -64,4 +87,16 @@
 
 #best-seller img{
 	border-radius: 25px;
+}
+
+#footer .social-media, #footer .contact-details, #footer .quick-links {
+	width: 30%;
+}
+
+#footer h3 {
+	color: #FD788B;
+}
+
+#footer a, .copyright {
+	color: #7B3F00;
 }
