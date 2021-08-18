@@ -30,7 +30,14 @@
 	background-size: cover;
 }
 
-#home-banner p {
+#story-banner {
+	height: 585px;
+	background-image: url("../image/about-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#home-banner p, #story-banner p {
 	font-size: 5vw;
 	color: #7B3F00;
 }
