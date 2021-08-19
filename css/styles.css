@@ -30,13 +30,6 @@
 	background-size: cover;
 }
 
-#story-banner {
-	height: 585px;
-	background-image: url("../image/about-banner.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 #home-banner p, #story-banner p {
 	font-size: 5vw;
 	color: #7B3F00;
@@ -74,7 +67,7 @@
 	color: #7B3F00;
 }
 
-#best-seller p {
+#best-seller p, #beginning p {
 	line-height: 30px;
 	color: black; 
 }
@@ -106,4 +99,23 @@
 
 #footer a, .copyright {
 	color: #7B3F00;
+}
+
+#story-banner {
+	height: 585px;
+	background-image: url("../image/about-banner.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#beginning {
+	background: #FEB4BF;
+}
+
+#beginning h1 {
+	color: #7B3F00;
+}
+
+#beginning img {
+	border-radius: 70px;
 }
